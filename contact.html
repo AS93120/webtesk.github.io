@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Page">
+  <title>Contactez-nous</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Navigation principale">
+      <ul class="menu">
+
+        <li><a href="home.html">Accueil</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" aria-current="page" class="contact-btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Contactez-nous</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Nos Coordonnées</h3>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>email@exemple.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+33 6 XX XX XX XX</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Paris, France</p>
+          </div>
+        </div>
+        
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <span class="btn-text">Envoyer</span>
+            <span class="btn-background"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

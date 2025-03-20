@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Page">
+  <title>Mes Projets</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Navigation principale">
+      <ul class="menu">
+       
+        <li><a href="home.html">Accueil</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a href="contact.html" class="contact-btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio">
+      
+      <div class="filter-ui" role="group" aria-label="Filtres de projets" style="display: flex; justify-content: center;">
+
+        <button type="button" data-filter="all" class="filter-btn active" aria-pressed="true">
+            <span class="btn-text">Tous</span>
+            <span class="btn-background"></span>
+        </button>
+        <button type="button" data-filter="web" class="filter-btn" aria-pressed="false">
+            <span class="btn-text">Web</span>
+            <span class="btn-background"></span>
+        </button>
+        <button type="button" data-filter="design" class="filter-btn" aria-pressed="false">
+            <span class="btn-text">Design</span>
+            <span class="btn-background"></span>
+        </button>
+      </div>
+      <div class="projects-grid" style="display: flex; flex-direction: column; align-items: center;">
+        <p>A cybersecurity project involves implementing security measures to protect systems, networks, and data from cyber threats. These projects can be educational, research-based, or real-world applications aimed at improving security. Since you're studying BTS Cybersecurity and Networking, you might be interested in projects that enhance your practical skills. Here are some cybersecurity project ideas:</p>
+        <h3>1. Network Security Projects</h3>
+        
+        <ul>
+            <li><strong>Web Application Security Testing</strong> → Use OWASP ZAP or Burp Suite to test for SQL Injection, XSS, CSRF, etc.</li>
+            <li><strong>Wireless Network Security Audit</strong> → Test Wi-Fi security using tools like Aircrack-ng to check for weak passwords and encryption flaws.</li>
+            <li><strong>Social Engineering Awareness</strong> → Simulate phishing attacks to educate users on cybersecurity best practices.</li>
+        </ul>
+        <h3>2. Ethical Hacking & Penetration Testing</h3>
+        <ul>
+            <li><strong>Web Application Security Testing</strong> → Use OWASP ZAP or Burp Suite to test for SQL Injection, XSS, CSRF, etc.</li>
+            <li><strong>Wireless Network Security Audit</strong> → Test Wi-Fi security using tools like Aircrack-ng to check for weak passwords and encryption flaws.</li>
+            <li><strong>Social Engineering Awareness</strong> → Simulate phishing attacks to educate users on cybersecurity best practices.</li>
+        </ul>
+        <h3>4. Digital Forensics & Incident Response</h3>
+        
+        <ul>
+            <li><strong>Securing IoT Devices</strong> → Test vulnerabilities in IoT devices using Shodan and recommend security solutions.</li>
+            <li><strong>Cloud Security Assessment</strong> → Assess AWS/Azure security settings using open-source tools like ScoutSuite.</li>
+            <li><strong>Building a Honeypot for Cyber Threats</strong> → Deploy a Dionaea or Cowrie honeypot to log and analyze cyber-attacks.</li>
+        </ul>
+        <h3>5. Cloud & IoT Security</h3>
+        <ul>
+            <li><strong>Log Analysis for Threat Detection</strong> → Analyze system logs for signs of compromise using Splunk or ELK Stack.</li>
+            <li><strong>Data Recovery & Forensics Analysis</strong> → Use Autopsy or FTK Imager to recover deleted files from a compromised system.</li>
+            <li><strong>Ransomware Simulation and Defense</strong> → Simulate a ransomware attack in a virtual lab and test backup/recovery strategies.</li>
+        </ul>
+      <article class="project" data-category="web">
+          <h3>Projet Web</h3>
+          <p>Description du projet</p>
+        </article>
+        <article class="project" data-category="design">
+        <article class="project" data-category="web">
+            <h3>Building a Honeypot for Cyber Threats</h3>
+            <p>Deploy a Dionaea or Cowrie honeypot to log and analyze cyber-attacks.</p>
+
+          <h3>Projet Design</h3>
+          <p>Description du projet</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Home Page">
+  <title>Accueil</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Navigation principale">
+      <ul class="menu">
+
+        <li><a href="home.html" aria-current="page">Accueil</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="contact-btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="split-section">
+      <div class="split left" role="region" aria-labelledby="cv-title">
+        <h2 id="cv-title">Mon CV</h2>
+        <p>Découvrez mon parcours professionnel</p>
+        <a href="cv.html" class="split-button" role="button">Explorer mon CV</a>
+      </div>
+      <div class="split right" role="region" aria-labelledby="portfolio-title">
+        <h2 id="portfolio-title">Portfolio</h2>
+        <p>Découvrez mes projets</p>
+        <a href="portfolio.html" class="split-button" role="button">Voir mes projets</a>
+      </div>
+    </section>
+   </main>
+</body>
+</html>
